@@ -1,14 +1,14 @@
 import array from "./array.js";
 
-const button = document.querySelector(".content__button");
-const input = document.querySelector(".content__input");
+const text = document.querySelector(".content__text");
+const win = window.document;
 
 function randomClick() {
   const random = array[Math.floor(Math.random() * array.length)];
   const random2 = array[Math.floor(Math.random() * array.length)];
-  input.value = random + " " + random2;
+  text.textContent = random[0].toUpperCase() + random.slice(1) + " " + random2;
 }
 
-button.addEventListener("click", randomClick);
+win.addEventListener("click", randomClick);
 
 randomClick();

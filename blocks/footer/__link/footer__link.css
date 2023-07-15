@@ -1,0 +1,8 @@
+.footer__link {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    color: #362F2F;
+    text-decoration: none;
+    border-bottom: 1px solid #362F2F;
+  }

@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
-    <title>Random shit</title>
+    <link href = "./vendor/segoeui/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <title>Random bullshit</title>
   </head>
-  <body>
+  <body class="body">
     <div class="page">
       <header class="header">
-        <h1 class="header__title">Генератор</h1>
+        <h1 class="header__title">RBullshit</h1>
       </header>
       <main class="main">
         <section class="content">
-          <input type="text" class="content__input" disabled maxlength="55"/>
-          <button type="button" class="content__button">Сгенерировать</button>
+          <p type="text" class="content__text"></p>
+        </section>
         </section>
       </main>
+      <footer class="footer">
+        <small class="footer__copyright">Made by an idiot</small>
+        <ul class="footer__contacts">
+          <p class="footer__text">Contacts: </p>
+          <li><a class="footer__link" href="https://vk.com/kostyamik" target="_blank">VK</a></li>
+          <li><a class="footer__link" href="https://t.me/kostya_mik" target="_blank">TG</a></li>
+          <li><a class="footer__link" href="https://github.com/ELEVEN1000" target="_blank">GH</a></li>
+        </ul>
+      </footer>
     </div>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="../script/index.js"></script>
   </body>
 </html>

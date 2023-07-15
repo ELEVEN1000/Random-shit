@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Segoe UI';
+  font-style:  normal;
+  font-weight: 350;
+  font-display: swap;
+  src: url("./segoeui/SegoeUI.woff2") format("woff2"),
+       url("./segoeui/SegoeUI.woff") format("woff");
+}
+@font-face {
+  font-family: 'Segoe UI';
+  font-style:  Bbold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./segoeui/SegoeUI-Bold.woff2") format("woff2"),
+       url("./segoeui/SegoeUI-Bold.woff") format("woff");
+}

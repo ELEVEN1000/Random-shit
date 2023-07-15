@@ -1,0 +1,12 @@
+.content__text {
+    color: #362F2F;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 350;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    min-height: 70px;
+    cursor: pointer;
+  }
